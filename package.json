@@ -1,0 +1,33 @@
+{
+  "name": "kabelschland",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "bin" : {
+    "kabelschland" : "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vodafone",
+    "kabel deutschland",
+    "kabelschland",
+    "rechnung",
+    "pdf",
+    "statement",
+    "invoice",
+    "payment",
+    "tax"
+  ],
+  "dependencies": {
+    "nightmare": "~2.3.4",
+    "nightmare-download-manager": "~0.2.0"
+  },
+  "repository" :
+    { "type" : "git"
+    , "url" : "https://github.com/rmoriz/kabelschland"
+  },
+  "author": "Roland Moriz",
+  "license": "MIT"
+}
